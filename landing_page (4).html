@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Øresundsbro Konsortiet Kiosk</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .logo {
+            width: 128px;
+            height: 128px;
+            border-radius: 50%;
+        }
+        .flags {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .flag {
+            width: 40px;
+            height: 40px;
+            margin: 0 5px;
+            transition: transform 0.2s;
+        }
+        .flag:hover {
+            transform: scale(1.2);
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Øresundsbro Konsortiet Kiosk
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="https://www.google.com/s2/favicons?domain=oresundsbron.com&sz=128" alt="Øresundsbron Logo" class="logo">
+            <div class="flags">
+                <a href="https://oresundsbron.com/da"><img src="https://flagcdn.com/w320/dk.png" alt="Danish Flag" class="flag"></a>
+                <a href="https://oresundsbron.com/en"><img src="https://flagcdn.com/w320/gb.png" alt="English Flag" class="flag"></a>
+                <a href="https://oresundsbron.com/sv"><img src="https://flagcdn.com/w320/se.png" alt="Swedish Flag" class="flag"></a>
+                <a href="https://oresundsbron.com/de"><img src="https://flagcdn.com/w320/de.png" alt="German Flag" class="flag"></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.google.com/s2/favicons?domain=oresundpay.com&sz=128" alt="ØresundPay Logo" class="logo">
+            <div class="flags">
+                <a href="https://oresundpay.com/da"><img src="https://flagcdn.com/w320/dk.png" alt="Danish Flag" class="flag"></a>
+                <a href="https://oresundpay.com/en"><img src="https://flagcdn.com/w320/gb.png" alt="English Flag" class="flag"></a>
+                <a href="https://oresundpay.com/sv"><img src="https://flagcdn.com/w320/se.png" alt="Swedish Flag" class="flag"></a>
+                <a href="https://oresundpay.com/no"><img src="https://flagcdn.com/w320/no.png" alt="Norwegian Flag" class="flag"></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.google.com/s2/favicons?domain=brobizz.com&sz=128" alt="BroBizz Logo" class="logo">
+            <div class="flags">
+                <a href="https://brobizz.com/da"><img src="https://flagcdn.com/w320/dk.png" alt="Danish Flag" class="flag"></a>
+                <a href="https://brobizz.com/en"><img src="https://flagcdn.com/w320/gb.png" alt="English Flag" class="flag"></a>
+                <a href="https://brobizz.com/sv"><img src="https://flagcdn.com/w320/se.png" alt="Swedish Flag" class="flag"></a>
+                <a href="https://brobizz.com/de"><img src="https://flagcdn.com/w320/de.png" alt="German Flag" class="flag"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
